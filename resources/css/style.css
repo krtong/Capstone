@@ -247,6 +247,7 @@ header #mobile-header{
 #keep-practicing {
     display: flex;
     justify-content: space-between;
+		background-color: #eee;
 }
 /* keep practicing - left */
 #keep-practicing .left-child li {
