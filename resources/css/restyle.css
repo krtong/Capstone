@@ -1,0 +1,38 @@
+
+header {
+
+}
+header nav {
+	text-align: right;
+	max-width: 1050px;
+	margin: auto;
+
+}
+
+header nav li { 
+display: inline-block;
+}
+
+/* logo and company */
+header nav ul li:first-child,
+li:nth-child(2),
+li:nth-child(3) { 
+	float: left;
+}
+header nav ul li:nth-child(2) { /* Colmar */
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+header nav ul li:nth-child(3) { /* Academy */
+	font-family: "Avenir Light", sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding-left:.08rem;
+	letter-spacing:0.07rem;
+	text-transform: uppercase;
+	color: #9B9B9B;
+}
+
+/* menu */
