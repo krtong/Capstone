@@ -1,6 +1,3 @@
-/* 1. fonts */
-@import url('https://fonts.googleapis.com/css?family=montserrat:300,400,500,700');
-
 html {
 	  background-color: #EEE;
 	  color: #444;
@@ -145,6 +142,7 @@ header #mobile-header{
 
       /* right side */
         .right-child {
+					  flex-direction: column;
             display: flex;
             flex: 2;
             padding: 2px;
@@ -168,6 +166,11 @@ header #mobile-header{
             transition: background-color 200ms ease-in;
             transition-delay: 45ms;
         }
+
+				.right-column img {
+				    width: 35%;
+				    padding: 16px;
+				}
 
 
 /* section id 'learn' */
@@ -437,16 +440,10 @@ header #mobile-header{
     display: flex;
     justify-content: space-between;
 }
+#thesis-work .container {
+	    margin-top: -32px;
+	}
 
-.right-child {
-    flex-direction: column;
-}
-
-
-.right-column img {
-    width: 35%;
-    padding: 16px;
-}
 #thesis-work .first-info {
     margin-top: 32px;
 }
