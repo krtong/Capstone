@@ -15,7 +15,6 @@ h1 {
     line-height: 2.9rem;
     margin: auto;
 }
-
 h2 {
     font-family: 'montserrat';
     font-size: 1.10rem;
@@ -23,25 +22,19 @@ h2 {
     padding-bottom: .5em;
     line-height: 1rem;
 }
-
-
 .container {
     max-width: 1050px;
     margin: auto;
 }
-
 .text-left {
 	  text-align: left;
 }
-
 .text-center {
 	  text-align: center;
 }
 .headline {
     padding: 32px 0;
 }
-
-
 /* header */
 header {
     background-color: white;
@@ -61,7 +54,6 @@ header .logo img {
     height: 2.75rem;
     padding-left: 16px;
 }
-
 header .logo {
     align-items: center;
     color: #333;
@@ -99,7 +91,6 @@ header nav a {
     transition: background-color 200ms ease-in;
     transition-delay: 75ms;
 }
-
 header nav a:hover {
     background-color: #ddd;
     border-radius: .15rem;
@@ -115,7 +106,6 @@ header #mobile-header{
     padding: 0 24px;
     text-align: center;
 }
-
 /* changes to nav menu for mobile layout */
 @media only screen and (max-width: 600px) {
       header {
@@ -128,7 +118,6 @@ header #mobile-header{
       display: block;
 	    }
 }
-
 /* -left size: 3/5-  -right size 2/5- ratio column */
        /* left side */
         .left-child {
@@ -139,7 +128,6 @@ header #mobile-header{
         .left-child video {
             width: 100%;
         }
-
       /* right side */
         .right-child {
 					  flex-direction: column;
@@ -166,20 +154,16 @@ header #mobile-header{
             transition: background-color 200ms ease-in;
             transition-delay: 45ms;
         }
-
 				.right-column img {
 				    width: 35%;
 				    padding: 16px;
 				}
-
-
 /* section id 'learn' */
 #learn-something {
 	padding-top: 64px;
     background-color: #ddd;
     margin: 0 auto;
 }
-
 #learn-something h1 { /* juuust a little bigger */
 	  font-size: 2.4rem;
 	  text-align: left;
@@ -189,7 +173,6 @@ header #mobile-header{
 	  line-height: 1.8rem;
 	  font-size: 1.36rem;
 }
-
 #learn-something .container {
     display: flex;
 }
@@ -244,7 +227,6 @@ header #mobile-header{
         padding-left: 0;
     }
 }
-
 @media only screen and (min-width: 600px) {
     #learn-something button {
         width: 100%;
@@ -256,7 +238,6 @@ header #mobile-header{
         opacity: .7;
     }
 }
-
 @media only screen and (max-width: 600px) {
       #learn-something {
         padding-top: 0;
@@ -307,9 +288,9 @@ header #mobile-header{
 }
 #keep-practicing .right-column {
     padding-top: .22em;
-	  border-top: .22em double #ddd;}
+	  border-top: .22em double #ddd;
+	}
 /* ~~~~~~~~~~~~~~ */
-
 #keep-practicing .lecture {
     background-color: #ddd;
 }
@@ -361,13 +342,11 @@ header #mobile-header{
         width: 100%;
     }
 }
-
 /* start learning */
 #start-learning {
     background-color: #ddd;
     padding-bottom: 32px;
 }
-
 #start-learning .list {
     display: flex;
     flex-wrap: wrap;
@@ -386,11 +365,9 @@ header #mobile-header{
 	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	  transition: all 300ms ease-in ;
 }
-
 #start-learning .list-item img { /* box image */
     width: 100%;
 }
-
 #start-learning .list-item li:nth-child(2) { /* 'software engineering' */
     font-family: 'montserrat';
     font-size: 1.10rem;
@@ -408,9 +385,6 @@ header #mobile-header{
 	  font-size: .8rem;
 	  line-height: 1.2rem;
 }
-
-
-
 /* courses mobile changes */
 @media only screen and (max-width: 600px) {
       #start-learning .list-item  {
@@ -434,7 +408,6 @@ header #mobile-header{
       flex-direction: column;
       }
 }
-
 /* thesis section */
 #thesis-work .flex {
     display: flex;
@@ -443,11 +416,9 @@ header #mobile-header{
 #thesis-work .container {
 	    margin-top: -32px;
 	}
-
 #thesis-work .first-info {
     margin-top: 32px;
 }
-
 @media only screen and (max-width: 600px) {
     #thesis-work .flex .right-child {
         display: none;
@@ -498,4 +469,4 @@ footer .footer-nav a:hover {
 footer .footer-nav a:active {
     color: #888;
 }
-/* over 500!!! jfc... */
+/* down from over 500... goal 400 */
