@@ -74,7 +74,7 @@ header .logo {
     text-transform: uppercase;
 }
     /* 'academy' typeface */
-header .logo span:nth-child(3) {
+header .logo li:nth-child(3) {
     color: #ccc;
     font-size: 1.3rem;
     font-weight: lighter;
@@ -436,7 +436,7 @@ header #mobile-header{
     }
         #thesis-work .flex .left-child {
                 width: 100%;
-                padding:0;
+                padding: .5rem;
     }
         #thesis-work .flex .left-child p {
                 display: none;
@@ -447,6 +447,7 @@ footer {
     border-top: 1px solid #ddd;
     background-color: #fff;
     height: 3.5rem;
+   padding-left: 1rem;
 }
 footer p {
     padding-left: 24px;
